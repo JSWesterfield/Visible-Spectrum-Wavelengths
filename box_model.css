@@ -1,0 +1,237 @@
+h1 {
+	text-decoration: underline;
+	color: #330c44;
+}
+
+.red2 {
+	/* background styles */
+	position: relative; /*postition relative so the overlay can be placed in the right position */
+	display: inline-block;
+	padding: 15px 25px;
+	background: #D50101; /*for compatibility with older browsers, also red*/
+	background-image: linear-gradient(#D50101, #ea1919); /*(red, light-red)*/
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	/* text styles*/
+		text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+	/*light overlay, w/gradient that goes from transparent white to more transparent white and stops about halfway down */
+.red2:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+}
+.red2:hover{
+	background: linear-gradient(#5b0a1f,#c11341);
+	text-color: white;
+}
+
+.orange2 {
+/* background styles */
+	position: relative; /*postition relative so the overlay can be placed in the right position */
+	display: inline-block;
+	padding: 20px 25px;
+	margin-left: 30px;
+	background: #D50101; /*for compatibility with older browsers, also red*/
+	background-image: linear-gradient(#e56810
+, #ea8519); /*(orange, light-orange)*/
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	/* text styles*/
+		text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+	/*light overlay, w/gradient that goes from transparent white to more transparent white and stops about halfway down */
+.orange2:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+}
+.orange2:hover{
+	background: linear-gradient(#b2520e,#EFA40E);
+	text-color: white;
+}
+
+.yellow2 {
+/* background styles */
+	position: relative; /*postition relative so the overlay can be placed in the right position */
+	display: inline-block;
+	padding: 20px 25px;
+	margin-left: 60px;
+	background: #D50101; /*for compatibility with older browsers, also red*/
+	background-image: linear-gradient(#EFF703, #faff82); /*(yellow, light-yellow)*/
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	/* text styles*/
+		text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+	/*light overlay, w/gradient that goes from transparent white to more transparent white and stops about halfway down */
+.yellow2:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+}
+.yellow2:hover{
+	background: linear-gradient(#b2520e,#EFA40E);
+	text-color: white;
+}
+
+.yellow {
+	color: white;
+	background-color: #EFF703;
+	border: 1px solid black;
+	height: 50px;
+	width: 160px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.green2 {
+/* background styles */
+	position: relative; /*postition relative so the overlay can be placed in the right position */
+	display: inline-block;
+	padding: 20px 25px;
+	margin-left: 90px;
+	background: #D50101; /*for compatibility with older browsers, also red*/
+	background-image: linear-gradient(#22631e, #3A9323); /*(yellow, light-yellow)*/
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	/* text styles*/
+		text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+	/*light overlay, w/gradient that goes from transparent white to more transparent white and stops about halfway down */
+.green2:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+}
+.green2:hover{
+	background: linear-gradient(#11420f, #22631e);
+	text-color: white; !important
+	box-shadow: none;
+}
+
+.blue2 {
+/* background styles */
+	position: relative; /*postition relative so the overlay can be placed in the right position */
+	display: inline-block;
+	padding: 20px 25px;
+	margin-left: 120px;	
+	background: #D50101; /*for compatibility with older browsers, also red*/
+	background-image: linear-gradient(#192b70, #3933F4); /*(yellow, light-yellow)*/
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	/* text styles*/
+		text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+	/*light overlay, w/gradient that goes from transparent white to more transparent white and stops about halfway down */
+.blue2:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+}
+.blue2:hover{
+	background: linear-gradient(#3933F4, #0f1c51);
+	text-color: white; !important
+	box-shadow: none;
+}
+
+.purple2 {
+/* background styles */
+	position: relative; /*postition relative so the overlay can be placed in the right position */
+	display: inline-block;
+	padding: 20px 25px;
+	margin-left: 150px;
+	background: #D50101; /*for compatibility with older browsers, also red*/
+	background-image: linear-gradient(#3d0f51, #C572CE); /*(yellow, light-yellow)*/
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	/* text styles*/
+		text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+	/*light overlay, w/gradient that goes from transparent white to more transparent white and stops about halfway down */
+.purple2:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+}
+.purple2:hover{
+	background: linear-gradient(#C572CE, #330c44);
+	text-color: white; !important
+	box-shadow: none;
+<div>
